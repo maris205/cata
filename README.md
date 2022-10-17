@@ -40,6 +40,6 @@ For more information:
 
 ### CATA API & SDKs
 
-{% content-ref url="api/cata-restful-api.md" %}
-[cata-restful-api.md](api/cata-restful-api.md)
+{% content-ref url="api/json-rpc-api.md" %}
+[json-rpc-api.md](api/json-rpc-api.md)
 {% endcontent-ref %}

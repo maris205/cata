@@ -1,4 +1,4 @@
-# CATA.database Restful API
+# CATA Restful API
 
 {% swagger baseUrl="/" path="ini_db" method="get" summary="create minerva table" %}
 {% swagger-description %}
@@ -100,7 +100,7 @@
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="/search_metadata" path="?" method="get" summary="" %}
+{% swagger baseUrl="/search_metadata" path="?" method="get" summary="search nft metadata" %}
 {% swagger-description %}
 
 {% endswagger-description %}
