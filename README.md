@@ -4,9 +4,9 @@ description: One-stop storage solution for Metaverse with flexible metadata engi
 
 # Welcome to CATA
 
-CATA provides a complete one-stop solution for Metaverse data storage. CATA creatively extends the flow protocol to provide decentralized storage while achieving flexible metadata management, and is also compatible with SQL queries, providing extremely user-friendly and developer-friendly data access.&#x20;
+CATA provides a complete one-stop solution for Metaverse data storage. CATA creatively extends the flow protocol to provide decentralized storage while achieving flexible metadata management, and is also compatible with SQL queries, providing extremely user-friendly and developer-friendly data access.
 
-## &#x20;<img src=".gitbook/assets/flow.png" alt="" data-size="line"> The first stop is NFT !
+## <img src=".gitbook/assets/flow.png" alt="" data-size="line"> The first stop is NFT !
 
 NFT, the hottest topic in the current decentralized world, has redefined asset ownership and created unprecedented value in the digital world. As an infrastructure, [Flow](https://www.onflow.org/) forms a natural decentralized marketplace for NFT, enabling low transaction fees and a better user experience.
 
@@ -17,8 +17,6 @@ For more information:
 {% content-ref url="introduction/core-concepts.md" %}
 [core-concepts.md](introduction/core-concepts.md)
 {% endcontent-ref %}
-
-
 
 ## :bulb: Explore
 
@@ -42,11 +40,6 @@ For more information:
 
 ### CATA API & SDKs
 
-{% content-ref url="api/json-rpc-api.md" %}
-[json-rpc-api.md](api/json-rpc-api.md)
+{% content-ref url="api/cata-restful-api.md" %}
+[cata-restful-api.md](api/cata-restful-api.md)
 {% endcontent-ref %}
-
-
-
-
-

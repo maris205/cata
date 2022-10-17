@@ -17,8 +17,7 @@
 
 ## API
 
-* [CATA.database Restful API](api/json-rpc-api.md)
-* [CATA.stroage Restful API](api/cata.stroage-restful-api.md)
+* [CATA Restful API](api/cata-restful-api.md)
 
 ## Miner Guides
 
