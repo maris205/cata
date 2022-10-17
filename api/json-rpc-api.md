@@ -1,6 +1,6 @@
 # CATA.database Restful API
 
-{% swagger baseUrl="http://api.cata.show/" path="ini_db" method="get" summary="create minerva table" %}
+{% swagger baseUrl="/" path="ini_db" method="get" summary="create minerva table" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -16,31 +16,17 @@
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.cata.show/insert_metadata" path="?" method="post" summary="Insert metadata into minerva" %}
+{% swagger baseUrl="/insert_metadata" path="" method="post" summary="Insert metadata into minerva" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="" type="object" %}
+{% swagger-parameter in="body" name="" type="object" required="false" %}
 {
 
-\
+"db":"ipfs://QmNr3U2TAPnP2wA4n2fP161Lqzp5JusW1Mo8iT9WaqFTj8"
 
-
- "db":"ipfs://QmNr3U2TAPnP2wA4n2fP161Lqzp5JusW1Mo8iT9WaqFTj8"
-
-\
-
-
-
-
-\
-
-
-"metadata":[{"title":"abc1","nft_id":1}]
-
-\
-
+"metadata":\[{"title":"abc1","nft\_id":1}]
 
 }
 {% endswagger-parameter %}
@@ -56,21 +42,19 @@
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.cata.show/upload_file" path="/" method="post" summary=" upload file" %}
+{% swagger baseUrl="/upload_file" path="/" method="post" summary=" upload file" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="" type="object" %}
+{% swagger-parameter in="path" name="" type="object" required="false" %}
 {
 
-\
+\\
 
+"file":"base64\_str"
 
-"file":"base64_str"
-
-\
-
+\\
 
 }
 {% endswagger-parameter %}
@@ -86,16 +70,16 @@
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="http://api.cata.show/get_metadata" path="?" method="get" summary="get metadata by nft id" %}
+{% swagger baseUrl="/get_metadata" path="?" method="get" summary="get metadata by nft id" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="db_link" type="string" %}
+{% swagger-parameter in="path" name="db_link" type="string" required="false" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="nft_id" type="string" %}
+{% swagger-parameter in="query" name="nft_id" type="string" required="false" %}
 
 {% endswagger-parameter %}
 
@@ -116,20 +100,20 @@
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.cata.show/search_metadata" path="?" method="get" summary="" %}
+{% swagger baseUrl="/search_metadata" path="?" method="get" summary="" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
-{% swagger-parameter in="query" name="word" type="string" %}
+{% swagger-parameter in="query" name="word" type="string" required="false" %}
 search word
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="db_link" type="string" %}
+{% swagger-parameter in="query" name="db_link" type="string" required="false" %}
 minerva db link
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="field" type="string" %}
+{% swagger-parameter in="query" name="field" type="string" required="false" %}
 search field
 {% endswagger-parameter %}
 
