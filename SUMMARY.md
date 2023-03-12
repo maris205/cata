@@ -11,7 +11,7 @@
 
 ## Developer Guides <a href="#tutorial" id="tutorial"></a>
 
-* [Getting Started](tutorial/untitled.md)
+* [Getting Started](tutorial/get-started.md)
 * [Installation](tutorial/installation.md)
 * [Storage service](tutorial/storage-service.md)
 * [Search service](tutorial/search-service.md)
