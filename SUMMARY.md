@@ -13,6 +13,9 @@
 
 * [Getting Started](tutorial/untitled.md)
 * [Installation](tutorial/installation.md)
+* [Storage service](tutorial/storage-service.md)
+* [Search service](tutorial/search-service.md)
+* [CDN service](tutorial/cdn-service.md)
 * [Resources](tutorial/resources.md)
 
 ## API
