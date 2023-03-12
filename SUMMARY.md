@@ -11,11 +11,12 @@
 
 ## Developer Guides <a href="#tutorial" id="tutorial"></a>
 
-* [Getting Started](tutorial/get-started.md)
+* [Getting Started](tutorial/untitled.md)
 * [Installation](tutorial/installation.md)
 * [Storage service](tutorial/storage-service.md)
 * [Search service](tutorial/search-service.md)
 * [CDN service](tutorial/cdn-service.md)
+* [Decentralized data Cloud](tutorial/decentralized-data-cloud.md)
 * [Resources](tutorial/resources.md)
 
 ## API

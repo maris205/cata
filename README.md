@@ -34,8 +34,8 @@ For more information:
 
 ### **For developers**
 
-{% content-ref url="tutorial/get-started.md" %}
-[get-started.md](tutorial/get-started.md)
+{% content-ref url="tutorial/untitled.md" %}
+[untitled.md](tutorial/untitled.md)
 {% endcontent-ref %}
 
 ### CATA API & SDKs
