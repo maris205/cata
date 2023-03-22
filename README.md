@@ -1,5 +1,5 @@
 ---
-description: One-stop storage solution for Metaverse with flexible metadata engine
+description: One-stop storage solution for NFT with flexible metadata engine
 ---
 
 # Welcome to CATA
